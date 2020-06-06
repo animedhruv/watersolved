@@ -8,6 +8,7 @@ let resultBoxElem;
 let visibleCount;
 const allowLocalStorage = test_localStorage();
 let prependSigWord = false;
+
 if (allowLocalStorage) {
   prependSigWord =
     localStorage.getItem("question_displaySigWord") == null
@@ -97,7 +98,7 @@ function loaded() {
 
 function nextMeme() {
   if (nameArray.length === 0) {
-    alert("RIP LOL UR THING BRKEN GO YELL AT THSI DEV");
+    alert("RIP LOL UR THING BRKEN GO YELL AT THSI DEV JACK");
   }
   for (let i = 0; i < nameArray.length; i++) {
     let tempStr = reverseString(nameArray[i]);
