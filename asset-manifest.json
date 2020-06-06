@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/watersolved/static/css/main.6d14eae6.chunk.css",
+    "main.js": "/watersolved/static/js/main.98400f3e.chunk.js",
+    "main.js.map": "/watersolved/static/js/main.98400f3e.chunk.js.map",
+    "runtime-main.js": "/watersolved/static/js/runtime-main.41b73692.js",
+    "runtime-main.js.map": "/watersolved/static/js/runtime-main.41b73692.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/watersolved/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.276cd56e.chunk.js": "/watersolved/static/js/2.276cd56e.chunk.js",
+    "static/js/2.276cd56e.chunk.js.map": "/watersolved/static/js/2.276cd56e.chunk.js.map",
+    "index.html": "/watersolved/index.html",
+    "precache-manifest.69816a4d0eda3beca0c9216ee8a091ee.js": "/watersolved/precache-manifest.69816a4d0eda3beca0c9216ee8a091ee.js",
+    "service-worker.js": "/watersolved/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/watersolved/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.6d14eae6.chunk.css.map": "/watersolved/static/css/main.6d14eae6.chunk.css.map",
+    "static/js/2.276cd56e.chunk.js.LICENSE.txt": "/watersolved/static/js/2.276cd56e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41b73692.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.276cd56e.chunk.js",
+    "static/css/main.6d14eae6.chunk.css",
+    "static/js/main.98400f3e.chunk.js"
+  ]
+}
