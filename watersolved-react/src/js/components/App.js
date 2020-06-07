@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container-fluid">
-          <Example />
+          <UserPage />
 
           <UserInput index="yourmom" />
 
@@ -23,24 +23,29 @@ class App extends Component {
               <nav className="navbar bg-dark navbar-dark">
                 <ul className="navbar-nav">
                   <li className="nav-item">
+                    <i class="fas fa-user-nurse"></i>
                     <a className="nav-link" href="#">
                       Link 1
                     </a>
                   </li>
 
-                  <a className="nav-link" href="#">
-                    <li className="nav-item">Link 2</li>
-                  </a>
-                  <a className="nav-link" href="#">
-                    <li className="nav-item">Link 3</li>
-                  </a>
+                  <li className="nav-item">
+                    <i class="fas fa-user-nurse"></i>
+                    <a className="nav-link" href="#">
+                      Link 1
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <i class="fas fa-user-nurse"></i>
+                    <a className="nav-link" href="#">
+                      Link 1
+                    </a>
+                  </li>
                 </ul>
               </nav>
             </div>
             <div className="col-sm-10">
-              <div className="container rounded gray">
-                <UserPage />
-              </div>
+              <div className="container rounded gray"></div>
             </div>
           </div>
         </div>
