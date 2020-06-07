@@ -19,10 +19,12 @@ import "../../css/components/Example.css";
 //     - https://picsum.photos/width/height
 //     - Be sure to change the width and height
 
-class Example extends Component {
+class UserInput extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      exampleText: "UserInput",
+    };
     // any method using this keyword must bind
     // example: this.method = this.method.bind(this)
   }
@@ -35,13 +37,27 @@ class Example extends Component {
     // Things to do when the component is removed
   }
 
+  handleSubmit() {
+    alert("Something was submited");
+  }
+
   render() {
     return (
-      <div className="Example">
-        <h1>Example Text</h1>
+      <div className="UserInput">
+        <h1>{this.state.exampleText}</h1>
+        <form>
+          <label>
+            Username: <input type="text" />
+          </label>
+          <label>
+            Password: <input type="password" />
+          </label>
+          <input type="submit" value="Submit" onClick={this.handleSubmit} />
+        </form>
+        <p>Index: {this.props.index}</p>
       </div>
     );
   }
 }
 
-export default Example;
+export default UserInput;
