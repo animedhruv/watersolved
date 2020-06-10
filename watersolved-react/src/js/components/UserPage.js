@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../css/frameworks/normalize.css";
 import "../../css/frameworks/fontawesome-all.min.css";
-import "../../css/components/Example.css";
+import "../../css/components/UserPage.css";
 
 // Things to consider
 
@@ -19,10 +19,15 @@ import "../../css/components/Example.css";
 //     - https://picsum.photos/width/height
 //     - Be sure to change the width and height
 
-class Example extends Component {
+class UserPage extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      user: {
+        firstName: "Bob",
+        lastName: "Smith",
+      },
+    };
     // any method using this keyword must bind
     // example: this.method = this.method.bind(this)
   }
@@ -35,13 +40,21 @@ class Example extends Component {
     // Things to do when the component is removed
   }
 
+  handleClosing() {}
+
   render() {
     return (
-      <div className="Example">
-        <h1>Example Text</h1>
+      <div className="UserPage">
+        <div className="alert alert-success alert-dismissible">
+          <button type="button" className="close" onClick={this.handleClosing}>
+            &times;
+          </button>
+          <strong>Welcome Back!</strong>{" "}
+          {this.state.user.firstName + " " + this.state.user.lastName}
+        </div>
       </div>
     );
   }
 }
 
-export default Example;
+export default UserPage;

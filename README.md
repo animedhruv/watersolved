@@ -1,40 +1,17 @@
-#CSS3-animate-it
-_Just-add-water CSS animation_
+## what inspired you
 
-`CSS3-animate-it` is a bunch of cool, fun, and cross-browser animations for you to use in your projects.
+XYLEM’s mission of developing solutions to address the global water and energy crises was largely the motivating factor for our team to pursue a “Water Hack” challenge. 
 
-##Usage
-To use CSS3-animate-it in your website, simply drop `css3-animated.js` at the end of your file and `animations.css` in the head.
+##what you learned
+We learned to use various elements of  HTML and CSS . We learnt using different elements of CSS to make our web page look awesome. We also connected our web page with the Mongo DB which helped us to get various info collected through Xylem's meters. 
 
-```html
-<head>
-  <link rel="stylesheet" href="animations.css" />
-</head>
-<body>
-  <script type="text/javascript" src="/js/css3-animate-it.js"></script>
-</body>
-```
 
-Once you have done that you can just define `animatedParent` as the parent class which is what will trigger the child class ` animated`` to animate whichever animation is defined, here we are using `bounceInDown`.
+##how you built
 
-You can do a whole bunch of other stuff with CSS3-animate-it.
+We built it with React , java script,, HTML and CSS. 
 
-##Sequencing
 
-If you want to have a set of animations start one after the other then you can set a sequence time in ms using `data-sequence` then define the order with `data-id`.
+##challenges you faced.
 
-```html
-<div class="animatedParent" data-sequence="500">
-  <h2 class="animated bounceInDown" data-id="1">It Works!</h2>
-  <h2 class="animated bounceInDown" data-id="2">
-    This animation will start 500ms after
-  </h2>
-  <h2 class="animated bounceInDown" data-id="3">
-    This animation will start 500ms after
-  </h2>
-</div>
-```
+The main challenge was with the back-end team . As neither of us was experienced with back-end it was tough facing it . But we learnt and implemented it .
 
-## License
-
-animations.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
